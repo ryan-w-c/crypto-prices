@@ -23,5 +23,5 @@ test {
 }
 
 subprojects {
-	apply from: file('./gradle/heroku/stage.gradle')
+	apply from: file("$rootProject.projectDir/gradle/heroku/stage.gradle")
 }
