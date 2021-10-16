@@ -13,10 +13,15 @@ repositories {
 }
 
 dependencies {
+	implementation project(':frontend')
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
 test {
 	useJUnitPlatform()
+}
+
+subprojects {
+	apply from: file('$rootProject.projectDir/gradle/heroku/stage.gradle')
 }
