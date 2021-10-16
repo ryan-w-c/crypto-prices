@@ -38,7 +38,7 @@ http://localhost:8080/
 ## Questionnaire:
 
 1. Are there any sub-optimal choices( or short cuts taken due to limited time ) in your implementation?
-   - I'm sure there are sub-optimal choices in my code. This was my first time working with React, and it took a couple of days to understand how it works. Something that could be improved is the way I implemented the exchanges. For simplicity and speed, I made two state variables. I could have used a hashmap. The hashmap logic would also improve determining which exchange to buy or sell on by finding the min value when the action is buy and max value when the action is sell.
+   - I'm sure there are sub-optimal choices in my code. This was my first time working with React, and it took a couple of days to understand how it works. Something that could be improved is the way I implemented the exchanges. For simplicity and speed, I made two state variables. I could have used a hashmap. The hashmap logic would also improve determining which exchange to buy or sell on by finding the min value when the action is buy and max value when the action is sell. This would also allow the app to display instantly the price after clicking on a button. Currently, the query happens after the button is clicked instead of storing all prices for all coins. This means less storage space and fewer queries, but small lag when clicking a button.
 
 
 2. Is any part of it over-designed? ( It is fine to over-design to showcase your skills as long as you are clear about it)
