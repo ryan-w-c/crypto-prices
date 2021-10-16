@@ -3,6 +3,7 @@ plugins {
 }
 apply plugin: 'java'
 apply plugin: 'com.github.node-gradle.node'
+
 node {
     version = '12.9.1'
     download = true

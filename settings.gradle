@@ -1,3 +1,3 @@
 rootProject.name = 'crypto'
-include 'backend'
 include 'frontend'
+include 'backend'
