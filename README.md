@@ -1,6 +1,6 @@
 # Crypto Prices
 
-### Note: The app may take between 30-60 seconds to load on launch. This happens when the site has not been visited for a while.
+### Note: The site may take between 30-60 seconds to load on launch. This happens when the site has not been visited for a while.
 
 ### [Live Deployment](https://crypto-prices-webapp.herokuapp.com/)
 
