@@ -1,6 +1,10 @@
 # Crypto Prices
 
-[Live Deployment](https://crypto-prices-webapp.herokuapp.com/)
+### Note: The app may take between 30-60 seconds to load on launch. This happens when the app has not been used for some time.
+
+### [Live Deployment](https://crypto-prices-webapp.herokuapp.com/)
+
+
 
 This app queries CEX.io and Coinbase api and displays the current buy and sell prices for BTC and ETH.
 
